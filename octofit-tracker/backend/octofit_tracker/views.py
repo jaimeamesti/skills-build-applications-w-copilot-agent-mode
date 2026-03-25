@@ -12,7 +12,7 @@ class TeamViewSet(viewsets.ModelViewSet):
 
 class ActivityViewSet(viewsets.ModelViewSet):
     queryset = Activity.objects.all()
-    serializer_class = ActivitySerializer
+    serializer_class = ActivitySerializer 
 
 class LeaderboardViewSet(viewsets.ModelViewSet):
     queryset = Leaderboard.objects.all()
